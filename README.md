@@ -21,7 +21,6 @@ This lab note introduces the "Stokes Camera," a simple and novel experimental ar
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -29,13 +28,17 @@ This lab note introduces the "Stokes Camera," a simple and novel experimental ar
 
 ## Getting Started
 
-Instructions and details are provided in the associated journal paper (citation TBD).
+Some instructions and details are provided in the associated journal paper (citation TBD).
 
----
+1. Create a video object using the MATLAB Image Acquisition Toolbox. Make note of the important line of code, which is something like v = videoinput("gige", 1, "Mono12Packed");
+2. While you have a preview window open (with the toolbox, or call preview(v); after creating the video object), make sure the two halves of the beam are visible on the camera.
+3. Simply call CameraPreviewStokes(v); 
 
-## Usage
+**Note:** The first run will take a few minutes while the code finds the overlap between the halves of the beam. Don't change the alignment from the beamsplitter onwards after this point.
 
-For detailed usage, please refer to the aforementioned journal paper.
+Please feel free the check out the code. It's quite straight forward. There are additional options to use, such as a moving average of a number of frames. This helps with alignment with a moving beam (such as in turbulence).
+
+If you make enhancements, changes, etc. that will benefit the community, please fork this repository, commit your changes to your own repo and then send us a pull request!
 
 ---
 
