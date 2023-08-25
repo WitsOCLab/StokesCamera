@@ -40,6 +40,10 @@ Please feel free the check out the code. It's quite straight forward. There are 
 
 If you make enhancements, changes, etc. that will benefit the community, please fork this repository, commit your changes to your own repo and then send us a pull request!
 
+### Creating "Stokes Plots"
+
+Please see the file StokesPlot.m. When viewing the CameraPreviewStokes, hit 'p' on your keyboard and it will dump a timestamped .mat file with the various polaristion and stokes matrices. These can be input and plot as you desire.
+
 ---
 
 ## License
