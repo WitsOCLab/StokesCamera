@@ -1,16 +1,30 @@
 # Real-time Stokes Polarimetry using a Polarisation Camera
 
-## Authors
+## Creator
 
 **Mitchell A. Cox**  
 _School of Electrical and Information Engineering, University of the Witwatersrand, Johannesburg, South Africa_  
 Email: [mitchell.cox@wits.ac.za](mailto:mitchell.cox@wits.ac.za)  
 Homepage: [https://www.wits.ac.za/oclab](https://www.wits.ac.za/oclab)
 
-**Carmelo Rosales-Guzmán**  
-_Centro de Investigaciones en Óptica, A. C., Loma del Bosque 115, Col. Lomas del Campestre, 37150, León, Gto., México_
-
 ---
+
+## Journal Paper
+
+If you use this work, please cite our journal paper (which contains many details):
+
+https://opg.optica.org/ao/abstract.cfm?uri=ao-62-29-7828
+
+@article{cox2023stokes,
+  title={Real-time Stokes polarimetry using a polarization camera},
+  author={Cox, Mitchell A and Rosales-Guzm{\'a}n, Carmelo},
+  journal={Applied Optics},
+  volume={62},
+  number={29},
+  pages={7828--7836},
+  year={2023},
+  publisher={Optica Publishing Group}
+}
 
 ## Abstract
 
