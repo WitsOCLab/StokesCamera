@@ -232,7 +232,7 @@ while ishandle(h) %is window open?
     else
         frameTop = [frameS0 frameS1];
         frameBot = [frameS2 frameS3];
-        ellipseCenter = [round(size(frameS0,2) * 0.5) round(size(framframeS0eV,1)*0.5)];
+        ellipseCenter = [round(size(frameS0,2) * 0.5) round(size(frameS0,1)*0.5)];
     end
 
     frameComposition = vertcat(frameTop, frameBot);
@@ -253,6 +253,7 @@ while ishandle(h) %is window open?
     eh=sign(mean(frameS3,'all')); % Handedness: (+) Righthanded = Red (-) Lefthanded = Blue
     aux = mod(ephi,2*pi) * 180/pi;
 
+    ecolor = 'white';
     if (eb/ea) >= .05 && eh < 0
         ecolor = 'red';
     elseif (eb/ea) >= .05 && eh > 0

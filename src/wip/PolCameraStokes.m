@@ -14,7 +14,7 @@ function [H,V,A,D,R,L,S0,S1,S2,S3] = PolCameraStokes(frame, resetOverlap)
 % resetOverlap  : Reset the overlap calculation if the setup is changed.
 %                 Don't run this every time - it's very very slow (minutes).
 
-debug = false; %set to true to get more info
+debug = true; %set to true to get more info
 
 global crr;
 
